@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vil_semantic_slam</name>
+  <version>1.0.0</version>
+  <description>Real-Time Visual-Inertial-LiDAR (RGB-D + LiDAR + IMU) SLAM and 3D Semantic Mapping in Modern C++20</description>
+  <maintainer email="maintainer@example.com">Karl-Lin-sys</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>sensor_msgs</depend>
+  <depend>pcl_conversions</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
